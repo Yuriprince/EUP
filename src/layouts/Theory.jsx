@@ -109,7 +109,7 @@ const Theory = (props) => {
 
       <div class="flex bottom">
         <button class="main-btn unactive">Назад</button>
-        <p class="center page-info">Страница 1 из 134</p>
+        <p class="center page-info">Страница 1 из 34</p>
         <button class="main-btn active">Далее</button>
       </div>
 
