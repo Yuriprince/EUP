@@ -1,0 +1,47 @@
+.formula {
+  vertical-align: middle;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sf1 {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../Fonts/MontserratAlternates-Regular.ttf');
+}
+
+.bottom {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  align-items: center;
+}
+
+.page-info {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.main-btn {
+  background-color: rgb(129, 18, 74);
+  font-size: 17px;
+  margin: 5px;
+  border: none;
+  width: 100px;
+  height: 40px;
+}

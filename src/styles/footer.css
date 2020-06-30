@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../Fonts/MontserratAlternates-Regular.ttf');
+}
+
+footer a, footer p {
+  color: #ccc;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+footer a:hover {
+  color: rgb(255, 102, 0);
+}
+
+#footer-column {
+  display: flex;
+}
+
+.trademark {
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.trademark p {
+  width: inherit;
+}
+
+.links {
+  justify-content: center;
+  flex-grow: 3;
+}
+
+.development {
+  justify-content: flex-end;
+}
+
+
+#footer-column.set-paddings {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+footer {
+  width: 100%;
+  background: #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*margin-top: 120px;*/
+  /*position : fixed;
+  bottom : 0;*/
+  font-family: "oswald";
+}
+
+
+footer p, .ul-foot {
+  color: #ccc;
+  font-family: 'Montserrat';
+}
+
+footer div,ul {
+  margin: 0;
+  padding: 0;
+}
+
+p,a {
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.r-icon {
+  float: right;
+  margin-right: 10px;
+}
+
+.black {
+  color: black;
+}
+
+@media all and (max-width: 990px) {
+  .horizontal {
+      flex-direction: column;
+  }
+  .slash {
+      display: none;
+  }
+}
+
+@media all and (max-width: 740px) {
+  #new-flex {
+      flex-direction: column;
+  }
+
+  #content-products {
+      display: flex;
+      justify-content: center;
+  }
+}
+
+@media all and (min-width: 905px) {
+
+  #company-name {
+      flex-grow: 1;
+
+  }
+
+  .links {
+      flex-grow: 1;
+  }
+}
+
+@media all and (max-width: 669px) {
+
+  .set-paddings {
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+}
+
+@media all and (max-width: 838px) {
+
+  #phone {
+      margin-top: 15px;
+  }
+}
+
+@media all and (max-width: 740px) {
+  .cards {
+      justify-content: center;
+  }
+
+}
+
+@media all and (min-width: 1370px) {
+  .set-paddings {
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+}
+
+
+@media all and (max-width: 1000px) {
+  #footer-column, #abzatsy {
+      flex-direction: column;
+  }
+
+  #abzatsy {
+      justify-content: center;
+  }
+
+  #text1, #text2 {
+      padding: 0;
+      width: inherit;
+  }
+
+  #text2 {
+      padding-top: 20px;
+  }
+
+  #footer-column div {
+      padding: 20px;
+  }
+}
+

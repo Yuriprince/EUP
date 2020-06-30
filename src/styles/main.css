@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'MainBold';
+  src: url('../Fonts/UbuntuMono-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Main';
+  src: url('../Fonts/UbuntuMono-Regular.ttf');
+}
+
+.article {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'MainBold';
+  font-size: 22px;
+}
+
+.description {
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Main';
+  font-size: 18px;
+  /*text-align-last: justify;*/
+}
+
+.bold {
+  font-weight: 700;
+}
