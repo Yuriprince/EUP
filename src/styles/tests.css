@@ -56,3 +56,31 @@
   margin: 0;
   margin-left: 30px;
 }
+
+.hide {
+  display: none;
+}
+
+.pass {
+  background-color: rgb(146, 255, 146);
+  border: 2px solid green;
+  margin-bottom: 20px;
+}
+
+.weak-pass {
+  background-color: rgb(255, 239, 146);
+  border: 2px solid rgb(221, 206, 0);
+  margin-bottom: 20px;
+}
+
+.not-pass {
+  background-color: rgb(255, 146, 146);
+  border: 2px solid rgb(128, 0, 0);
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-family: 'Main';
+  font-size: 18px;
+  padding-left: 20px;
+}

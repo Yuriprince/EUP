@@ -38,10 +38,11 @@
 }
 
 .main-btn {
+  padding: 5px;
   background-color: rgb(129, 18, 74);
   font-size: 17px;
-  margin: 5px;
+  /*margin: 5px;*/
   border: none;
-  width: 100px;
+  /*min-width: 100px;*/
   height: 40px;
 }
